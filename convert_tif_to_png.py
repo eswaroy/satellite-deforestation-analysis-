@@ -25,7 +25,7 @@ import numpy as np
 from PIL import Image
 
 # Define input and output directories
-input_dir = "rondonia_tiles"
+input_dir = r"C:\Users\Asus\Desktop\arf satillite-details\rondonia_tiles"
 output_deforested = r"C:\Users\Asus\Desktop\arf satillite-details\aa\deforested"
 output_non_deforested = r"C:\Users\Asus\Desktop\arf satillite-details\aa\non_deforested"
 
