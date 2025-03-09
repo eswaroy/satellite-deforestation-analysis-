@@ -10,14 +10,14 @@ This project aims to analyze and predict deforestation trends using satellite im
 ├── convert_tif_to_png.py         # Converts satellite TIFF images to PNG format
 ├── divide_image_to_tiles.py      # Splits large images into smaller tiles
 ├── graph.png                     # Visualization of deforestation change over time
-├── ndvi_gee.py                   # Computes NDVI using Google Earth Engine
+├── ndvi_gee.py                   # Computes NDVI using TerraBrasilis (INPE - Brazilian National Institute for Space Research) 
 ├── normalize_augument_setdata.py  # Normalizes and augments dataset images
 ├── train_model.py                 # Trains a deep learning model for deforestation detection
 ```
 
 ## Features
 - **Image Processing**: Converts and prepares satellite images for analysis.
-- **NDVI Calculation**: Uses Google Earth Engine to compute vegetation indices.
+- **NDVI Calculation**: Uses TerraBrasilis (INPE - Brazilian National Institute for Space Research)  to compute vegetation indices.
 - **Data Augmentation**: Applies transformations to enhance dataset variability.
 - **Deep Learning Model**: Uses EfficientNetB3 for deforestation classification.
 - **Performance Monitoring**: Includes overheating protection for training stability.
@@ -67,3 +67,6 @@ The project generates a **graph (graph.png)** showing deforestation trends over 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ 
+# Note
+all the other files in this repo are useful for those who are collecting data from Google Earth Engine (GEE),USGS (United States Geological Survey).Avoid them if you are collecting data from TerraBrasilis (INPE - Brazilian National Institute for Space Research) 
