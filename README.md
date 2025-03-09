@@ -103,7 +103,8 @@ We collected and processed data from:
 - Visualization of deforestation rates in different regions  
 
 ## 🤝 Contributors  
-- **Your Name** (Replace with your details)  
+---No Contributors----
+-Dasari Ranga Eswar[(Me)one man show]
 
 ## 📜 License  
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
