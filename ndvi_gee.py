@@ -366,10 +366,10 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # Define file paths (Change these paths accordingly)
-file_path = r"C:\Users\Asus\Desktop\arf satillite-details\2015\Rondonia_Landsat8_Bands1to7_CloudMasked-0000000000-0000000000.tif"
-ndvi_output_path = r"C:\Users\Asus\Desktop\arf satillite-details\2015\ndvi_output.tif"
-mask_output_path = r"C:\Users\Asus\Desktop\arf satillite-details\2015\Rondonia_Deforestation_Mask_output.tif"
-classified_output_path = r"C:\Users\Asus\Desktop\arf satillite-details\2015\Rondonia_Clustered_output.tif"
+file_path = r"C:\Users\Asus\Desktop\arf satillite-details\2024\Rondonia_Landsat8_Bands1to7_CloudMasked-0000000000-0000000000.tif"#"C:\Users\Asus\Desktop\arf satillite-details\2015\Rondonia_Landsat8_Bands1to7_CloudMasked-0000000000-0000000000.tif"
+ndvi_output_path = r"C:\Users\Asus\Desktop\arf satillite-details\2024\ndvi_output.tif"
+mask_output_path = r"C:\Users\Asus\Desktop\arf satillite-details\2024\Rondonia_Deforestation_Mask_output.tif"
+classified_output_path = r"C:\Users\Asus\Desktop\arf satillite-details\2024\Rondonia_Clustered_output.tif"
 
 # Open the satellite image
 with rasterio.open(file_path) as dataset:
